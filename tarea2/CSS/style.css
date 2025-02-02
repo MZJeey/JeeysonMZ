@@ -1,15 +1,69 @@
-html{
-    box-sizing: border-box;
-    font-size: 62.5%;
-}
-*,
-*:before,
-*::after{
-    box-sizing: inherit;
-}
-body{
-    font-family: 'Raleway',
-    sans-serif;
-    font-family: 1.6rem;
 
+
+/* 🔹 Estilos del Box Model */
+.box-model {
+    margin-top: 20px;
+}
+
+.caja {
+    width: 300px;
+    padding: 20px;
+    border: 10px solid blue;
+    margin: 10px;
+    background-color:red;
+}
+
+/* 🔹 Estilos de Posicionamiento */
+.posicionamiento {
+    margin-top: 40px;
+    position: relative;
+    height: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: lightcoral;
+    padding: 10px;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background: lightgreen;
+    padding: 10px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: gold;
+    padding: 10px;
+}
+
+/* 🔹 Estilos de Flexbox */
+.flexbox {
+    margin-top: 40px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: lightblue;
+    padding: 20px;
+}
+
+.flex-item {
+    background: darkblue;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    width: 80px;
+    text-align: center;
 }
